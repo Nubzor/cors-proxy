@@ -1,15 +1,11 @@
 package services;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.http.*;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 
 @Component
 public class ProxyService {
-
-    private static final Logger log = LoggerFactory.getLogger(ProxyService.class);
 
     public String getWebsite(String url) throws InvalidMediaTypeException {
         RestTemplate restTemplate = new RestTemplate();
