@@ -1,4 +1,4 @@
-package services;
+package pl.mm.isa.proxy.services;
 
 import org.springframework.http.*;
 import org.springframework.stereotype.Component;
